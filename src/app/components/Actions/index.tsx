@@ -35,7 +35,12 @@ export const Actions = () => {
           return (
             <CardsSection key={index}>
               <div className={"mainHeaderC"}>
-                <IconStyle background={IconBcks[index]}>
+                <IconStyle
+                  background={IconBcks[index]}
+                  style={{
+                    color: index === 3 ? "#000000" : "",
+                  }}
+                >
                   {Icons[index]}
                 </IconStyle>
                 <p>
