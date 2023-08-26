@@ -123,6 +123,13 @@ const ActionDiv = styled.div`
       border: 1px solid #959595;
       border-radius: 15px;
       font-size: 1rem;
+      transition-duration: 1s;
+
+      &:hover {
+        background: black;
+        color: white;
+        cursor: pointer;
+      }
     }
   }
 `;

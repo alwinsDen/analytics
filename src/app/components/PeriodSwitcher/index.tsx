@@ -1,11 +1,25 @@
 import styled from "styled-components";
+import { useState } from "react";
 
 export const PeriodSwitcher = () => {
   const hrs = [1, 24, 30, 60];
+  const [currSelect, setCurrString] = useState<string>();
   return (
     <PeriodMainDiv>
       {hrs.map((vls: number, index: number) => {
-        return <PeriodButton key={index}>{vls}hr</PeriodButton>;
+        return (
+          <PeriodButton
+            key={index}
+            onClick={() => {
+              setCurrString(vls.toString());
+            }}
+            style={{
+              background: currSelect === vls.toString() ? "#E2E3E8" : "",
+            }}
+          >
+            {vls}d
+          </PeriodButton>
+        );
       })}
     </PeriodMainDiv>
   );
@@ -26,4 +40,10 @@ const PeriodButton = styled.button`
   padding: 11px 18px;
   border-radius: 11px;
   border: none;
+  cursor: pointer;
+  transition-duration: 1s;
+
+  &:hover {
+    background: #e2e3e8;
+  }
 `;

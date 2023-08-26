@@ -17,4 +17,9 @@ const GreyClickerDiv = styled.button`
   text-align: inherit;
   width: max-content;
   font-size: 0.9rem;
+  transition-duration: 0.9s;
+
+  &:hover {
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.1);
+  }
 `;
