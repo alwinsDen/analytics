@@ -5,3 +5,23 @@
   box-sizing: border-box;
   font-family: 'Karla', sans-serif;
 }
+.arrow_box {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffffff;
+  height: 123px;
+  width: 244px;
+  box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.25);
+  position: relative;
+  border-radius: 30px;
+}
+#mainChart .apexcharts-tooltip {
+  transform: translateY(-60%);
+  overflow: visible !important;
+  white-space: normal !important;
+  border: none;
+  background: none;
+  box-shadow: none;
+}

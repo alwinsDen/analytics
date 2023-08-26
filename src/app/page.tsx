@@ -2,6 +2,7 @@
 import { PeriodSwitcher } from "@/app/components/PeriodSwitcher";
 import styled from "styled-components";
 import { BarGraph } from "@/app/components/BarGraph";
+import { Actions } from "@/app/components/Actions";
 
 export default function Home() {
   return (
@@ -17,7 +18,11 @@ export default function Home() {
         </p>
         <PeriodSwitcher />
       </div>
+      {/*bar graph component*/}
       <BarGraph />
+      {/*Zootools features*/}
+      <Actions />
+      <div></div>
     </MainPageDiv>
   );
 }
