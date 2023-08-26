@@ -14,7 +14,7 @@ export const CommonBoards = (props: LabelMeasureGraphs) => {
         <p className={"mainHeader"}>{props.mainHeader}</p>
         <div>
           <GreyClicker text={`${props.buttonArray[0]}`} />
-          <p>{props.buttonArray[1]}</p>
+          <p>{props.buttonArray[1]} </p>
         </div>
       </div>
       <HorizontalGraph {...props.graphContent} gap={props.gap} />
