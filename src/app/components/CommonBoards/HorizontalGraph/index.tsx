@@ -1,6 +1,5 @@
 import Chart from "react-apexcharts";
 import styled from "styled-components";
-import { LabelMeasureGraphs } from "@/app/components/interfaces";
 
 export const HorizontalGraph = (props: {
   series: number[];

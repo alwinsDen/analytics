@@ -30,7 +30,7 @@ const LeaderBoardDiv = styled.div`
   width: 48%;
   border-radius: 16px;
   background: #fff;
-  box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.1);
   padding: 30px 71px;
 
   .mainHeader {
