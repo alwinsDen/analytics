@@ -1,4 +1,4 @@
-import { CardsInterace } from "@/app/components/interfaces";
+import { CardsInterace, TableDataInterface } from "@/app/components/interfaces";
 
 export const preContentData: CardsInterace[] = [
   {
@@ -24,5 +24,28 @@ export const preContentData: CardsInterace[] = [
     subHeader: "",
     subContent:
       "Have you considered created email flows to remind your subscribers to invite their friends and celebrate referrals milestones? Read this guide on how to do it",
+  },
+];
+
+export const TableData: TableDataInterface[] = [
+  {
+    email: "paula.suarze@con...es",
+    invited: 6500,
+    country: "USA",
+  },
+  {
+    email: "laura.kenet..3@yahoo.coms",
+    invited: 2300,
+    country: "Monaco",
+  },
+  {
+    email: "aaron.michael@arg.org",
+    invited: 1200,
+    country: "Prague",
+  },
+  {
+    email: "jeremy.runner@aol.com",
+    invited: 900,
+    country: "China ",
   },
 ];

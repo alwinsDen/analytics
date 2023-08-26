@@ -3,6 +3,7 @@ import { PeriodSwitcher } from "@/app/components/PeriodSwitcher";
 import styled from "styled-components";
 import { BarGraph } from "@/app/components/BarGraph";
 import { Actions } from "@/app/components/Actions";
+import { LeaderBoards } from "@/app/components/LeaderBoards";
 
 export default function Home() {
   return (
@@ -22,13 +23,15 @@ export default function Home() {
       <BarGraph />
       {/*Zootools features*/}
       <Actions />
-      <div></div>
+      <div>
+        <LeaderBoards />
+      </div>
     </MainPageDiv>
   );
 }
 const MainPageDiv = styled.div`
   background: #f9fafb;
-  padding: 75px 175px;
+  padding: 75px 20px;
   .headerComp {
     display: flex;
     justify-content: space-between;

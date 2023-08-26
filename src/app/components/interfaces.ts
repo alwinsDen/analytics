@@ -6,3 +6,9 @@ export interface CardsInterace {
 export interface IconInterface {
   background: string;
 }
+
+export interface TableDataInterface {
+  email: string;
+  invited: number;
+  country: string;
+}
