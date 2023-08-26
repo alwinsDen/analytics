@@ -12,18 +12,19 @@ export const HorizontalGraph = (props: {
     margin-top: -25px;
     margin-bottom: -25px;
     position: relative;
-
     .labelTextDiv {
       position: absolute;
-      top: 40px;
-      left: 40px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-left: 40px;
       z-index: 1;
       font-size: 1.6rem;
       font-style: normal;
       font-weight: 300;
       display: flex;
       flex-direction: column;
-      gap: ${props.gap}rem;
+      justify-content: space-between;
+      height: 100%;
       width: 100%;
       .onChartLabel {
         display: flex;
