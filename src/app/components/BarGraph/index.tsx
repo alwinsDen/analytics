@@ -11,7 +11,7 @@ export const BarGraph = () => {
     <BarChartDiv id={"mainChart"}>
       <div className={"metricMeterDiv"}>
         <div className={"metricMeter"}>
-          <p>100,000</p>
+          <p>{(100000).toLocaleString("en-US")}</p>
           <FiUsers size={20} />
         </div>
         <p className={"metricSub"}>Participants</p>
