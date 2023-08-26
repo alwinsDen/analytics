@@ -12,3 +12,14 @@ export interface TableDataInterface {
   invited: number;
   country: string;
 }
+
+export interface LabelMeasureGraphs {
+  mainHeader: string;
+  buttonArray: string[];
+  graphContent: {
+    series: number[];
+    labelJSX: JSX.Element[];
+  };
+  expandContent: string;
+  gap: number;
+}

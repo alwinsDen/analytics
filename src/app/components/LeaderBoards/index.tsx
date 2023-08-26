@@ -22,12 +22,12 @@ export const LeaderBoards = () => {
           );
         })}
       </table>
-      <GreyClicker />
+      <GreyClicker text={"See leaderboards"} />
     </LeaderBoardDiv>
   );
 };
 const LeaderBoardDiv = styled.div`
-  width: 50%;
+  width: 48%;
   border-radius: 16px;
   background: #fff;
   box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.1);

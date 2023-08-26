@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const GreyClicker = () => {
-  return <GreyClickerDiv>See leaderboard</GreyClickerDiv>;
+export const GreyClicker = (props: { text: string }) => {
+  return <GreyClickerDiv>{props.text}</GreyClickerDiv>;
 };
 const GreyClickerDiv = styled.button`
   border-radius: 8px;

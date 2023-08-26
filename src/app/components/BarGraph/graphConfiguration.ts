@@ -15,9 +15,8 @@ export const ChartOptions: ApexOptions = {
     },
   },
   tooltip: {
-    enabled: true, // Set this to true to enable tooltips
+    enabled: true,
     custom: function ({ series, seriesIndex, dataPointIndex, w }: any) {
-      // Your custom tooltip content here
       return `<div class="arrow_box"><div style="display: flex;font-size: 28px"><p style="font-weight: 700">${series[seriesIndex][dataPointIndex]}</p><p>&nbsp;Signups</p></div><p style="color:#909090;font-size: 24px;gap: 10px">Current week</p></div>`;
     },
   },
