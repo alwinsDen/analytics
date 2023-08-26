@@ -1,4 +1,5 @@
 import { ApexOptions } from "apexcharts";
+
 export const ChartSeries = [
   {
     data: [
@@ -17,7 +18,15 @@ export const ChartOptions: ApexOptions = {
   tooltip: {
     enabled: true,
     custom: function ({ series, seriesIndex, dataPointIndex }: any) {
-      return `<div class="arrow_box"><div style="display: flex;font-size: 28px"><p style="font-weight: 700">${series[seriesIndex][dataPointIndex]}</p><p>&nbsp;Signups</p></div><p style="color:#909090;font-size: 24px;gap: 10px">Current week</p></div>`;
+      return `
+        <div class="arrow_box">
+          <div style="display: flex;font-size: 1.3em">
+            <p style="font-weight: 700">${series[seriesIndex][dataPointIndex]}</p>
+            <p>&nbsp;Signups</p>
+          </div>
+          <p style="color:#909090;font-size: 1em;gap: 10px">Current week</p>
+        </div>
+      `;
     },
   },
   colors: ["#FED500"],

@@ -11,7 +11,7 @@ const MainPage = () => {
       <div className={"headerComp"}>
         <p
           style={{
-            fontSize: "48px",
+            fontSize: "2em",
             fontWeight: 700,
           }}
         >
@@ -29,7 +29,7 @@ const MainPage = () => {
           mainHeader={"Traffic "}
           expandContent={"See traffic sources"}
           buttonArray={["Source", "City"]}
-          gap={20}
+          gap={1.25}
           graphContent={{
             series: [30000, 20000, 10000, 5000, 3000, 2000],
             labelJSX: [
@@ -54,7 +54,7 @@ const MainPage = () => {
           mainHeader={"Signup location"}
           expandContent={"See all countries"}
           buttonArray={["Country", "City"]}
-          gap={16.5}
+          gap={1.05}
           graphContent={{
             series: [30000, 20000, 10000, 5000, 3000, 2000],
             labelJSX: [
@@ -77,7 +77,7 @@ const MainPage = () => {
           mainHeader={"Behaviour"}
           expandContent={"See all countries"}
           buttonArray={["Browsers", "Decides"]}
-          gap={16.5}
+          gap={1.05}
           graphContent={{
             series: [30000, 20000, 10000, 5000, 3000, 2000],
             labelJSX: [
@@ -102,7 +102,7 @@ const MainPage = () => {
 };
 const MainPageDiv = styled.div`
   background: #f9fafb;
-  padding: 75px 20px;
+  padding: 40px 100px;
 
   .headerComp {
     display: flex;

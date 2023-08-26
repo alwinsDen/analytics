@@ -18,14 +18,13 @@ export const HorizontalGraph = (props: {
       top: 40px;
       left: 40px;
       z-index: 1;
-      font-size: 26px;
+      font-size: 1.6rem;
       font-style: normal;
       font-weight: 300;
       display: flex;
       flex-direction: column;
-      gap: ${props.gap}px;
+      gap: ${props.gap}rem;
       width: 100%;
-
       .onChartLabel {
         display: flex;
         justify-content: space-between;
@@ -47,7 +46,7 @@ export const HorizontalGraph = (props: {
       <Chart
         width={"100%"}
         type={"bar"}
-        height={350}
+        height={"350px"}
         series={[
           {
             data: props.series,
@@ -64,7 +63,7 @@ export const HorizontalGraph = (props: {
           },
           plotOptions: {
             bar: {
-              borderRadius: 4,
+              borderRadius: 10,
               horizontal: true,
             },
           },

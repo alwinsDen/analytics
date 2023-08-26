@@ -13,7 +13,8 @@ const GreyClickerDiv = styled.button`
   margin: 0;
   cursor: pointer;
   font-family: inherit;
-  font-size: inherit;
   color: inherit;
   text-align: inherit;
+  width: max-content;
+  font-size: 0.9rem;
 `;

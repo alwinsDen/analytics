@@ -30,7 +30,7 @@ const CommonBoardsDiv = styled.div`
     justify-content: space-between;
 
     .mainHeader {
-      font-size: 40px;
+      font-size: 1.7rem;
       font-style: normal;
       font-weight: 700;
     }

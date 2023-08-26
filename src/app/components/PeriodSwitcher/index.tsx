@@ -21,7 +21,7 @@ const PeriodMainDiv = styled.div`
 `;
 const PeriodButton = styled.button`
   background: #f8f9fa;
-  font-size: 32px;
+  font-size: 1.2em;
   color: #646a75;
   padding: 11px 18px;
   border-radius: 11px;

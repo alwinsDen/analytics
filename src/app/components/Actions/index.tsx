@@ -59,13 +59,14 @@ const IconStyle = styled.div<IconInterface>`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 55px;
-  width: 55px;
+  height: 40px;
+  width: 40px;
   border-radius: 10px;
   margin-right: 15px;
+  color: #ffffff;
 `;
 const CardsSection = styled.div`
-  height: 186px;
+  height: 150px;
   border: 1px solid #f0f0f0;
   border-radius: 10px;
   flex: 1 0 calc(50% - 10px);
@@ -73,7 +74,7 @@ const CardsSection = styled.div`
     height: 50%;
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 1rem;
     padding-left: 24px;
     p {
       font-weight: 600;
@@ -88,6 +89,7 @@ const CardsSection = styled.div`
     align-items: center;
     background: #f4f4f4;
     padding: 24px;
+    font-size: 0.9rem;
   }
 `;
 const ActionDiv = styled.div`
@@ -95,7 +97,7 @@ const ActionDiv = styled.div`
   box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.1);
   padding: 49px 68px;
   border-radius: 16px;
-  margin-top: 82px;
+  margin-top: 60px;
   .gridControl {
     display: flex;
     flex-wrap: wrap;
@@ -108,20 +110,19 @@ const ActionDiv = styled.div`
     margin-bottom: 57px;
     .textSectionDiv {
       .mainHeaderT {
-        font-size: 64px;
+        font-size: 2.6rem;
         font-weight: 700;
       }
       .subHeaderT {
-        font-size: 36px;
+        font-size: 1.3rem;
       }
     }
     button {
-      width: 147px;
-      height: 63px;
+      padding: 13px 20px;
       background: none;
       border: 1px solid #959595;
       border-radius: 15px;
-      font-size: 20px;
+      font-size: 1rem;
     }
   }
 `;
