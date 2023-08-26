@@ -39,7 +39,7 @@ export const HorizontalGraph = (props: {
           return (
             <div key={index} className={"onChartLabel"}>
               {vls}
-              <p>{props.series[index]}</p>
+              <p>{props.series[index].toLocaleString("en-US")}</p>
             </div>
           );
         })}
